@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,800&display=swap');
+
+.fstyle{
+    font-family: 'Racing Sans One', cursive;
+}
+.fstyle2{
+    font-family: 'Exo', sans-serif;
+}
+.redf{
+    color: red;
+}
+
+.blackf{
+    color: black !important;
+}
+body{
+    background-color: black;
+}
+
+.jumbotron{
+    background-image: url(images/bg\ otomotif\ 1.jpg);
+    background-size: cover;
+    height: 680px;
+    text-align: center;
+}
+
+.bagian2{
+    margin-top: -50px;
+}
+.jumbotron .display-4{
+    color: white;
+    margin-top: 150px;
+}
+
+
+
+.top_1{
+    background-image: url(images/top_product_1.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-right: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top_1 p{
+    color: white;
+    margin-top: 350px;
+    font-size: 0.5 rem;
+}
+
+.top_2{
+    background-image: url(images/top_product_2.jpg);
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.top_2 p{
+    color: white;
+    margin-top: 350px;
+    font-size: 0.5 rem;
+}
+
+.row h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card{
+    background-color: rgb(26, 24, 24);
+    border-color: red;
+    border-width: 2px;
+}
+
+.card-body p{
+    color: white;
+}
+
+.kotak {
+    background-color: #343a40;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+
+.foot{
+    color: white;
+    margin-top: 20px;
+}
+
+.footer{
+    color:black
+}
+.bawah {
+    background-color:  #343a40;
+    padding-top: 20px;
+}
+
+.next {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    margin-left: auto;
+}
+
+/* Berita */
+
+.berita2{
+    margin-top: 20px;
+}
+
+.berita2 h1{
+    color: white;
+}
+.berita2 h4{
+    color: white;
+    margin-top: 10px;
+}
+
+.berita2 p{
+    color: white;
+}
+
+.berita1{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .pagination{
+    margin-top: 50px;
+}
+
+.pagination .page-item a{
+    color: white;
+}
+
+#jazz{
+    width: 100%;
+}
+
+.desc{
+    background-image: url(images/15.jpg);
+    background-size: cover;
+    margin-top: -25px;
+}
+
+#logos{
+    width: 100%;
+}
+.desct p{
+    color: white;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+    }
+
+    .navbar-nav :hover{
+        color: rgba(255, 255, 255, 0.753) !important;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .top_1 p{
+        margin-top: 300px;
+    }
+
+    .top_2 p{
+        margin-top: 300px;
+    }
+}
+
+/* Medium devices (tablets, 768px and down) */
+/* @media (max-width: 768px) {
+    .deskripsi p{
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .deskripsi p{
+        margin-right: 0px;
+    }
+
+    .top_1 p{
+        margin-top: 270px;
+    }
+
+    .top_2 p{
+        margin-top: 270px;
+    }
+} */
